@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutThemeContainer"
+    android:layout_margin="@dimen/_2sdp"
+    android:background="@drawable/background_dialog"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_15sdp">
+
+        <LinearLayout
+            android:id="@+id/Expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="3">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image"
+                android:contentDescription="@string/none"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme2"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image3"
+                android:contentDescription="@string/none"
+                android:layout_weight="1" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme3"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image4"
+                android:contentDescription="@string/none"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Expand2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="4dp"
+            android:weightSum="3"
+            app:layout_constraintTop_toBottomOf="@id/Expand">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme4"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/background_image6"
+                android:contentDescription="@string/none"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme5"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/background_image7"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme6"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/background_image8"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Expand3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="3"
+            app:layout_constraintTop_toBottomOf="@id/Expand2">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme7"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image9"
+                android:contentDescription="@string/none"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme8"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image10"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme9"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image11"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Expand4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="3"
+            app:layout_constraintTop_toBottomOf="@id/Expand3">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme10"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image12"
+                android:contentDescription="@string/none"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme11"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image13"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme12"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image14"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Expand5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="3"
+            app:layout_constraintTop_toBottomOf="@id/Expand4">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme13"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image15"
+                android:contentDescription="@string/none"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme14"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image16"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme15"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image17"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Expand6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="3"
+            app:layout_constraintTop_toBottomOf="@id/Expand5">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme16"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image18"
+                android:contentDescription="@string/none"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme17"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image19"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/theme18"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/background_image20"
+                android:contentDescription="@string/none"
+                android:layout_weight="1"
+                app:riv_corner_radius_bottom_left="@dimen/_5sdp"
+                app:riv_corner_radius_bottom_right="@dimen/_5sdp"
+                app:riv_corner_radius_top_left="@dimen/_5sdp"
+                app:riv_corner_radius_top_right="@dimen/_5sdp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
