@@ -1,4 +1,4 @@
-package com.example.differentandroidcodes;
+package com.example.wallpapers;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

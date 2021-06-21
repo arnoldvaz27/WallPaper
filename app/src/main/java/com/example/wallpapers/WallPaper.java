@@ -1,4 +1,4 @@
-package com.example.differentandroidcodes;
+package com.example.wallpapers;
 
 import android.os.Bundle;
 import android.view.Window;
@@ -7,7 +7,7 @@ import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.example.differentandroidcodes.MainActivity.wallpaper;
+import static com.example.wallpapers.MainActivity.wallpaper;
 
 public class WallPaper extends AppCompatActivity {
 
